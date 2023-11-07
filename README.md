@@ -25,5 +25,6 @@ Static web files (hrml, css, js) can run on S3. I select static website hosting:
 
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/fb291acd-0ab0-4761-82e7-bb2d52019f07)
 
-Here is the cv:
+Here is the CV:
 
+<img width="1022" alt="Screenshot 2023-11-07 at 22 13 29" src="https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/2a147511-7c45-4cd4-8416-823fd7e66e6e">
