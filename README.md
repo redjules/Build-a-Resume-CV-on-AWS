@@ -28,3 +28,14 @@ Static web files (hrml, css, js) can run on S3. I select static website hosting:
 Here is the CV:
 
 <img width="1022" alt="Screenshot 2023-11-07 at 22 13 29" src="https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/2a147511-7c45-4cd4-8416-823fd7e66e6e">
+
+
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/e2c8c63c-619a-4eba-b662-9d58a748162f)
+
+we go to Properties and Static website hosting and enable:
+
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/12ce438a-64e6-4cef-a2c8-85e5a72a542b)
+
+Go to Pemrissions tab and add a Policy (attached):
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/29359bfe-8997-445b-bac7-d80cd86b4ed0)
+
