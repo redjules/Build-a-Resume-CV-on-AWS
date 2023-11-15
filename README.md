@@ -53,6 +53,18 @@ The problem is that it's not secure.
 
 # Next version with a custom domain name using S3 and Route 53
 
+Go to Route 53 and domains. Find a domain and buy it:
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/5788e781-5d2b-4cb1-b8bf-842a90b927b1)
+
+Go to Hosted zones:
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/30c1e3c9-a1c2-44a2-90e1-9531460a3185)
+
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/c9492864-b4c0-4e29-823a-b78269068d3e)
+
+We click create record:
+
+we choose record type A and Alias and route traffic toS3
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/256f27cc-0243-43d1-a1f0-153eaa910e52)
 
 
 
