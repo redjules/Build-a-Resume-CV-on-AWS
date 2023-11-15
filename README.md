@@ -54,18 +54,20 @@ The problem is that it's not secure.
 # Next version with a custom domain name using S3 and Route 53
 
 Go to Route 53 and domains. Find a domain and buy it:
-![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/5788e781-5d2b-4cb1-b8bf-842a90b927b1)
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/d8c09ad1-6fec-43e3-8482-00bc65c6d794)
 
 Go to Hosted zones:
-![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/30c1e3c9-a1c2-44a2-90e1-9531460a3185)
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/21c5ca74-8fe7-4bef-b67c-f1e650d7e4fd)
 
-![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/c9492864-b4c0-4e29-823a-b78269068d3e)
+
 
 We click create record:
 
 we choose record type A and Alias and route traffic toS3
-![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/256f27cc-0243-43d1-a1f0-153eaa910e52)
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/81854022-4d96-4d95-bf33-bd0225c4e389)
 
+and when we click on the domain www.anaaws.com it works:
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/49466739-6da8-4cd7-9d86-a0fcd4b5c09a)
 
 
 
