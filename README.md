@@ -36,6 +36,24 @@ we go to Properties and Static website hosting and enable:
 
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/12ce438a-64e6-4cef-a2c8-85e5a72a542b)
 
-Go to Pemrissions tab and add a Policy (attached):
-![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/29359bfe-8997-445b-bac7-d80cd86b4ed0)
+Go to Permissions tab and add a Policy (attached):
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/c7ede639-cabc-474e-853e-4be67841082e)
+
+Upload files:
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/3373da49-5b63-4965-a71f-e56e0ed83507)
+
+
+Now there's a bucket in static website hosting:
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/1388674a-62b6-4f95-a3f2-815d71598b1a)
+
+we click it and there you go:
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/71755d5f-e99f-4530-b53d-75317a66e5c0)
+
+The problem is that it's not secure.
+
+# Next version with a custom domain name using S3 and Route 53
+
+
+
+
 
