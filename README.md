@@ -1,4 +1,4 @@
-# Build-a-Resume-CV-on-AWS
+# Build a Resume CV on AWS
 
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/de92929c-7c90-431b-914b-c0b97be7d1ea)
 
