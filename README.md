@@ -108,6 +108,7 @@ and when copying the distribution domain name in a browser it works:
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/65726899-1c79-4c96-83e4-39910286397b)
 
 
+And it's secure this time!!
 
 
 
