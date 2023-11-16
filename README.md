@@ -66,8 +66,48 @@ We click create record:
 we choose record type A and Alias and route traffic toS3
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/81854022-4d96-4d95-bf33-bd0225c4e389)
 
-and when we click on the domain www.anaaws.com it works:
+and when we click on the domain www.anaaws.com and it works:
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/49466739-6da8-4cd7-9d86-a0fcd4b5c09a)
+
+
+# Next version with incorporae CloudFrint and SSL/HTTPS using CloudFront S3, Route 53, ACM
+
+We go to AWS Certificate Manager (ACCM):
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/ea62b4cc-8e05-4896-8788-d6ca2d29d10f)
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/50e41e9e-8d33-4c1f-87e7-5c3660b7cafc)
+
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/87c4e0a3-e7d3-437d-84a1-b8de97d688f6)
+
+and request:
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/5803e736-02e8-4da8-bd7e-3556c5e6f4f6)
+
+we click on Create records in Route 53 and create records
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/cbf2bd7f-86c9-4949-99c5-afe96a273f3a)
+
+we go to CloudFront and click Create a CloudFront distribution:
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/22bb20d3-f5ab-45fe-b2da-7065305f701e)
+
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/fb5eb963-e70a-4f01-8b9d-f84f2187af26)
+
+we leave all attributes default except viewer:
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/48a6352b-a8e2-494c-bc78-444c3939c674)
+
+and WAF we click Do not enable security protections:
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/b220422b-c7ad-457e-9dfa-29741ee24ece)
+
+Add item and add domain:
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/d9e78d45-a18c-44eb-b061-e365b32fdb40)
+
+and add certificate:
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/f53247d6-f8f5-45a9-94b2-cb38404d688b)
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/c5e13e30-9c10-4617-a3d8-cccd93175959)
+and create distribution
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/0d98fcda-5788-4999-9418-8982b0ccf79b)
+
+and when copying the distribution domain name in a browser it works:
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/65726899-1c79-4c96-83e4-39910286397b)
+
+
 
 
 
