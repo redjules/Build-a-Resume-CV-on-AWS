@@ -72,7 +72,7 @@ and when we click on the domain www.anaaws.com and it works:
 
 # Next version with incorporae CloudFrint and SSL/HTTPS using CloudFront S3, Route 53, ACM
 
-We go to AWS Certificate Manager (ACCM):
+We go to AWS Certificate Manager (ACCM) and create a certificate:
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/ea62b4cc-8e05-4896-8788-d6ca2d29d10f)
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/50e41e9e-8d33-4c1f-87e7-5c3660b7cafc)
 
@@ -114,7 +114,7 @@ And it's secure this time!!
 Now we need to link the website to the original domain name anaaws.com. We go to Route 53, Hosted zones and click the original record and edit it. We change the route traffic to CloudFront distribution:
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/b508a931-0bed-43db-a64a-129ef1068548)
 
-Now we are in the right domain with a secure connection:
+Now we are in the right domain with a secure connection thanks to our certificate:
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/ee2f12fd-cde5-4546-89b8-59c8cf6d057a)
 
 
