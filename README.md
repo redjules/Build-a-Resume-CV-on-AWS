@@ -2,6 +2,8 @@
 
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/de92929c-7c90-431b-914b-c0b97be7d1ea)
 
+PAart 1 - Static website with Chat GPT and S3:
+
 I use ChatGPT to create a Resumé:
 
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/021d3448-a00f-4071-96f4-b8619893baf9)
@@ -51,7 +53,7 @@ we click it and there you go:
 
 The problem is that it's not secure.
 
-# Next version with a custom domain name using S3 and Route 53
+# Part 2 - Next version with a custom domain name using S3 and Route 53
 
 Go to Route 53 and domains. Find a domain and buy it:
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/d8c09ad1-6fec-43e3-8482-00bc65c6d794)
@@ -70,7 +72,7 @@ and when we click on the domain www.anaaws.com and it works:
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/49466739-6da8-4cd7-9d86-a0fcd4b5c09a)
 
 
-# Next version with incorporae CloudFrint and SSL/HTTPS using CloudFront S3, Route 53, ACM
+# Part 3- Next version with incorporae CloudFrint and SSL/HTTPS using CloudFront S3, Route 53, ACM
 
 We go to AWS Certificate Manager (ACCM) and create a certificate:
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/ea62b4cc-8e05-4896-8788-d6ca2d29d10f)
