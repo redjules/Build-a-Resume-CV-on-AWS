@@ -111,4 +111,10 @@ and when copying the distribution domain name in a browser it works:
 And it's secure this time!!
 
 
+Now we need to link the website to the original domain name anaaws.com. We go to Route 53, Hosted zones and click the original record and edit it. We change the route traffic to CloudFront distribution:
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/b508a931-0bed-43db-a64a-129ef1068548)
+
+Now we are in the right domain with a secure connection:
+![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/ee2f12fd-cde5-4546-89b8-59c8cf6d057a)
+
 
