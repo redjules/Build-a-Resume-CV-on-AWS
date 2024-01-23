@@ -65,7 +65,7 @@ Go to Hosted zones:
 
 We click create record:
 
-we choose record type A and Alias and route traffic toS3
+we choose record type A and Alias and route traffic to S3:
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/81854022-4d96-4d95-bf33-bd0225c4e389)
 
 and when we click on the domain www.anaaws.com and it works:
