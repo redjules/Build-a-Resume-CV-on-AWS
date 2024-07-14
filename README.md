@@ -72,7 +72,7 @@ and when we click on the domain www.anaaws.com and it works:
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/49466739-6da8-4cd7-9d86-a0fcd4b5c09a)
 
 
-# Part 3- Next version with incorporae CloudFrint and SSL/HTTPS using CloudFront S3, Route 53, ACM
+# Part 3- Next version with incorporate CloudFront and SSL/HTTPS using CloudFront S3, Route 53, ACM
 
 We go to AWS Certificate Manager (ACCM) and create a certificate:
 ![image](https://github.com/redjules/Build-a-Resume-CV-on-AWS/assets/106017493/ea62b4cc-8e05-4896-8788-d6ca2d29d10f)
